@@ -3,6 +3,7 @@
     "description": "encrypt decrypt id/string with ease",
     "type": "library",
     "license": "MIT",
+    "version":"1.0.0",
     "authors": [
         {
             "name": "ronakiihglobal",

@@ -15,5 +15,10 @@
     },
     "require": {
         "ronakiihglobal/stringcrypto": "dev-master"
-    }
+    },
+
+    "repositories":[{
+        "type":"vcs",
+        "url":"https://github.com/ronakiihglobal/stringcrypto"
+    }]
 }

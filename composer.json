@@ -1,0 +1,16 @@
+{
+    "name": "ronakiihglobal/stringcrypto",
+    "description": "encrypt decrypt id/string with ease",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ronakiihglobal",
+            "email": "ronak.iihglobal@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"ronak.iihglobal\\stringcrypto\\": "src/"}
+    },
+    "require": {}
+}

@@ -12,5 +12,6 @@
     "autoload": {
         "psr-4": {"ronak.iihglobal\\stringcrypto\\": "src/"}
     },
+    "minimum-stability": "stable",
     "require": {}
 }

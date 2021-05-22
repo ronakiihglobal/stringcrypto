@@ -14,6 +14,6 @@
         "psr-4": {"ronak.iihglobal\\stringcrypto\\": "src/"}
     },
     "require": {
-        "ronakiihglobal/stringcrypto": "dev-master",
-   }
+        "ronakiihglobal/stringcrypto": "dev-master"
+    }
 }

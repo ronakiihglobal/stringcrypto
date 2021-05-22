@@ -3,7 +3,7 @@
     "description": "encrypt decrypt id/string with ease",
     "type": "library",
     "license": "MIT",
-    "version":"1.0.0",
+    //"version":"1.0.0",
     "authors": [
         {
             "name": "ronakiihglobal",
@@ -13,12 +13,12 @@
     "autoload": {
         "psr-4": {"ronakiihglobal\\stringcrypto\\": "src/"}
     },
-    "require": {
-        "ronakiihglobal/stringcrypto": "dev-master"
-    },
+    "require": {},
 
-    "repositories":[{
-        "type":"vcs",
-        "url":"https://github.com/ronakiihglobal/stringcrypto"
-    }]
+    "repositories":[
+        // {
+        //     "type":"vcs",
+        //     "url":"https://github.com/ronakiihglobal/stringcrypto"
+        // }
+    ]
 }

@@ -11,10 +11,15 @@ The encrypt method used is `AES-256-CBC`.
 then 
 
 `require_once __DIR__ . '/vendor/autoload.php';`
+
 `use ronakiihglobal\stringcrypto\Crypto;`
 
+
 `$crypto = new Crypto();`
+
 `$crypto::init("testkey","testIv");`
 
+
 `$encrypted = $crypto::encrypt("123");`
+
 `$decrypted = $crypto::decrypt($encrypted);`

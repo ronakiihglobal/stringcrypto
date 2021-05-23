@@ -15,9 +15,7 @@ then
 `use ronakiihglobal\stringcrypto\Crypto;`
 
 
-`$crypto = new Crypto();`
-
-`$crypto::init("testkey","testIv");` this values should be random string of length 16 and should be managed as secret in env variables. 
+`$crypto = new Crypto("testkey","testIv");` these values should be random string of length 16 and should be managed as secret in env variables. 
 
 
 `$encrypted = $crypto::encrypt("123");` this value should be string.
